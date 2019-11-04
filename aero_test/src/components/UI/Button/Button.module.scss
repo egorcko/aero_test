@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  padding: 8px 15px;
+  border-radius: 2px;
+  transition: ease 0.3s;
+  font-size: 14px;
+  outline: none;
+  &.fit {
+    width: 100%;
+    justify-content: center;
+  }
+  &.skin {
+    &_default {
+      background-color: #0284c6;
+      color: #fff;
+      &:hover {
+        background-color: #0a608b;
+      }
+    }
+    &_second {
+      background-color: #f7f7f7;
+      color: #333333;
+      &:hover {
+        background-color: #dfdfdf;
+      }
+    }
+  }
+  svg {
+    fill: #fff;
+    flex-shrink: 0;
+    margin-right: 10px;
+  }
+}

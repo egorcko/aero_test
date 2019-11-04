@@ -1,0 +1,14 @@
+.Rating {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  &__star {
+    fill: #dfdfdf;
+    & + & {
+      margin-left: 5px;
+    }
+    &_active {
+      fill: #ffcb31;
+    }
+  }
+}

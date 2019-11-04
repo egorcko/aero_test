@@ -1,0 +1,16 @@
+.Availability {
+  display: flex;
+  align-items: center;
+  &__icon {
+    fill: #32ca00;
+  }
+  &__title {
+    font-weight: 300;
+    font-size: 14px;
+    color: red;
+    margin-left: 5px;
+    &_available {
+      color: #32ca00;
+    }
+  }
+}

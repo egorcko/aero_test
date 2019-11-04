@@ -1,0 +1,37 @@
+.Card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 25px;
+  border-radius: 2px;
+  &__article {
+    font-size: 12px;
+    font-weight: 300;
+    color: #7e7e7e;
+    display: block;
+    text-align: right;
+  }
+  &__image {
+    margin: 20px auto;
+    display: block;
+  }
+  &__title {
+    color: #333;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  &__right-icons {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    &__icon {
+      & + & {
+        margin-left: 20px;
+      }
+      svg {
+        fill: #0284c6;
+      }
+    }
+  }
+}

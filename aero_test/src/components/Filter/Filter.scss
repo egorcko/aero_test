@@ -1,0 +1,10 @@
+.Filter {
+  background-color: #fff;
+  padding: 30px;
+  &__action-button {
+    font-size: 13px;
+    & + & {
+      margin-top: 10px;
+    }
+  }
+}

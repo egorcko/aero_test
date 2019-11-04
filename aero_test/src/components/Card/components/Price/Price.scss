@@ -1,0 +1,14 @@
+.Price {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  &__value {
+    font-size: 25px;
+    color: #333333;
+  }
+  &__bonus {
+    color: #3e8bdc;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px;
+  }
+}

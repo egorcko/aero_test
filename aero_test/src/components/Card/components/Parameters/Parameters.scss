@@ -1,0 +1,14 @@
+.Parameters {
+  &__row {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    &_name {
+      color: #7e7e7e;
+    }
+    &_value {
+      color: #333;
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.preloader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0284c6;
+  font-size: 50px;
+  width: 1em;
+  height: 1em;
+}
+
+.svg {
+  width: 1em;
+  height: 1em;
+  animation: circular-rotate 1.4s linear infinite;
+}
+
+.circle {
+  animation: circular-dash 1.4s ease-in-out infinite;
+  stroke-dasharray: 80px, 200px;
+  stroke-dashoffset: 0px;
+  color: inherit;
+  stroke: currentColor;
+  stroke-width: 4px;
+}
+
+@keyframes circular-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes circular-dash {
+  0% {
+    stroke-dasharray: 1px, 200px;
+    stroke-dashoffset: 0px;
+  }
+  50% {
+    stroke-dasharray: 100px, 200px;
+    stroke-dashoffset: -15px;
+  }
+  100% {
+    stroke-dasharray: 100px, 200px;
+    stroke-dashoffset: -125px;
+  }
+}

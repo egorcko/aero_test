@@ -1,11 +1,14 @@
-import React from 'react';
-import '@/assets/styles/base.scss';
+import React from "react";
+import Goods from "@/containers/Goods/Goods";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "@/assets/styles/base.scss";
 
 function App() {
   return (
-    <div className="App">
-      <h2>test</h2>
-    </div>
+    <>
+      <Goods />
+    </>
   );
 }
 
