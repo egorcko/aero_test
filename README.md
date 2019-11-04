@@ -1,1 +1,1 @@
-# aero_test
+# in project folder make 'yarn start'
