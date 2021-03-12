@@ -51,7 +51,7 @@
     "react-app-polyfill": "^1.0.4",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-currency-format": "^1.0.0",
-    "react-dev-utils": "^9.1.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.11.0",
     "react-inlinesvg": "^1.1.7",
     "react-redux": "^7.1.1",
